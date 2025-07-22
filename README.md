@@ -1,11 +1,11 @@
 # Opc Execution Resolution Tracker
 
-A comprehensive repository tracking known resolution across Opc Ex product suite.
+A comprehensive repository tracking known resolutions across Opc Ex product suite.
 
 ## 🎯 Overview
 
 I have always missed the comprehensive tracker for Opc Ex CR, Electronics and Semi.
-This repository fills that gap by providing centralized overview with the resolution.
+This repository fills that gap by providing centralized overview with the resolutions.
 
 ### Legend
 - **CR** - Opc Ex Core
