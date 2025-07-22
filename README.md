@@ -17,6 +17,12 @@ This repository fills that gap by providing centralized overview with the resolu
 **Name**: Jan Tichy  
 **Email**: [jan.tichy@jnt-digital.net](mailto:jan.tichy@jnt-digital.net)  
 
+## ⚠️ Disclaimer
+
+The information provided in this repository is for informational purposes only.
+While efforts have been made to ensure accuracy, no guarantees are given that the content is complete, up-to-date, or free from errors.
+This repository does not represent official documentation or support and should not be considered as such. Use at your own discretion.
+
 
 ## 🗃️ Known Resolutions
 | Description | Resolution | Suit | Version |
@@ -28,7 +34,7 @@ This repository fills that gap by providing centralized overview with the resolu
 | Manufacturing Order scanning conflicts with identically named Carrier in SN Entry module | Implement disambiguation logic to correctly identify Manufacturing Order scans versus Container-Carrier associations | EL | 8 |
 | Electronics Resource Setup interface becomes non-functional on iPad devices | Refactor CSS styling for Electronics Resource Setup interface to ensure proper Resource selection field rendering | EL | 8 |
 | Tool Setup configuration treats distinct tools as identical entities | Reset parent Resource and ES_ToolDetailsID references when duplicating existing Tool configurations | EL | 8 |
-| Container Status webpart fails to display modeled resolved expressions (Issue PR275209 TAC8605148) | Enhanced code implementation to bind CLF CurrentContainerStatus_MapResolvedAttributes to newly instantiated ResolvedAttributes field within CurrentContainerStatus CDO | CR | 2210 |
+| Container Status webpart fails to display modeled resolved expressions | Enhanced code implementation to bind CLF CurrentContainerStatus_MapResolvedAttributes to newly instantiated ResolvedAttributes field within CurrentContainerStatus CDO | CR | 2210 |
 | Required field validation indicators display incorrectly | Implement proper required field identification logic within Manage Inventory Portal interface | EL | 2210 |
 | Future Hold Setup accepts Lot ID-only input displaying "Success" without creating records | Enhanced existing CLF LotFutureHoldSetup_Verify to mandate at least one detail requirement for future hold configuration in LotFutureHoldSetup_E0002 label, then reattached CLF to LotFutureHoldSetup CDO | SM | 2310 |
 | Parameter Matrix allows blank parameter entries resulting in null parameter sets | Enhanced existing CLF scsParameterMatrix_Verify to enforce minimum one Parameter List Details record requirement in ParameterMatrixChanges_E0001 label, then reattached CLF to ss_ParameterMatrixChanges CDO | SM | 2310 |
