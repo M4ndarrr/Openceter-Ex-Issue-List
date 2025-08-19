@@ -16,7 +16,7 @@ This repository fills that gap by providing centralized overview with the resolu
 
 **Name**: Jan Tichy  
 **Email**: [jan.tichy@jnt-digital.net](mailto:jan.tichy@jnt-digital.net)  
-**Web**: [www.jnt-digital.net](www.jnt-digital.net)  
+**Web**: <https://www.jnt-digital.net>  
 
 ## ⚠️ Disclaimer
 
